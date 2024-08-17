@@ -1,0 +1,36 @@
+* {
+    font-family: "微軟正黑體";
+  }
+  
+table{
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    background-color: #e5edff;
+    width: 800px;
+    height: 400px;
+}
+
+td{
+    border:solid rgb(255, 255, 255) 3px;
+    color: rgb(0, 0, 0)
+};
+
+
+
+table,h2{
+    color: black ;
+    font-size: 32px;
+};
+
+
+--------------------------------
+
+
+tbody > tr:nth-child(odd) {
+    background-color: #e5edff;
+}
+
+tbody > tr:hover {
+    background-color:#f5e0ed;
+}

@@ -1,0 +1,89 @@
+*{ margin: 0; padding: 0;}
+html{
+    /* background-color: #020617; */
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+.container{
+    background-color: #020617;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.maindiv{
+    display: flex;
+    background-color:#282A36;
+    width: 1200px;
+    height: 400px;
+    border-radius: 30px;
+}
+
+.divbox1{
+    flex: 1;
+    color: #b3AFC0;
+    display: flex;
+    align-items: center;
+}
+
+
+.divbox2{
+    padding-left: 50px;
+    flex: 1;
+    color: #b3AFC0;
+    display: flex;
+    align-items: center;
+}
+
+
+h1.maintitle{
+    font-size: 50px;
+    color: white;
+    line-height: 0px;
+    margin-left: 50px;
+}
+
+.label{
+    margin-bottom: 20px;
+}
+
+.sp{
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+/* 沒做完 */
+.ipt{
+    padding: 15px;
+    width: 200px;
+    border : solid 2px;
+    border-radius: 5px;
+    background-color : #020617;
+    border-color:#b3AFC0;
+    outline: none;
+    color:#b3AFC0 ;
+  }
+
+  .ipt:hover{
+    border : solid 2px;
+    border-color:#b3AFC0;
+  }
+
+
+
+/* .t1{
+    text-align: right;
+    margin-right: 10px;
+} */
+
+
+
+
+/* .fieldset{
+    width: 500px;
+    margin: 15px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    background-color: ;
+} */
